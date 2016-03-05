@@ -7,6 +7,25 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0">
+            <TextBlock Text="Jimmy" Padding="0,0,0,0" FontSize="30"></TextBlock>
+        </Border>
+        <Border Grid.Row="1">
+            <TextBlock Text="Love" Padding="100,0,0,0" FontSize="30"></TextBlock>
+        </Border>
+        <Border Grid.Row="2">
+            <TextBlock Text="Little" Padding="200,0,0,0" FontSize="30"></TextBlock>
+        </Border>
+        <Border Grid.Row="3">
+            <TextBlock Text="Mumu" Padding="300,0,0,0" FontSize="30"></TextBlock>
+        </Border>
+        <Button
     </Grid>
 </Window>
